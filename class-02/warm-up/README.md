@@ -1,12 +1,10 @@
 # Warm Up
 
-The **shredder** library ($$)
+## `map()` method
 
-## `$$.map()` method
+Takes 2 arguments: An array or object and a callback function.
 
-Takes 2 arguments: An array or object and a callback.
-
-Returns a new structure matching the old, based on the return value of the callback.
+Returns a new array or object, containing values based on the return value of the callback.
 
 For Arrays, the input should be an array and a callback that receives `value` and `index` as parameters.
 
@@ -14,7 +12,7 @@ For Arrays, the input should be an array and a callback that receives `value` an
 
 ```javascript
 let array = [1,2,3,4];
-$$.map(array, (val,idx) => {
+map(array, (val,idx) => {
   return val * val;
 });
 
@@ -31,7 +29,7 @@ let obj = {
   sunny: "no",
 };
 
-$$.map(obj, (key, val) => {
+map(obj, (key, val) => {
   return val.toUpperCase;
 })
 
