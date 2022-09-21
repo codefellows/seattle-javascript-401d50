@@ -1,17 +1,15 @@
 # Warm Up
 
-The **shredder** library ($$)
+## `filter()` method
 
-## `$$.filter()` method
+Input: 2 arguments: An array or object and a callback function.
 
-Input: 2 arguments: An array or object and a callback.
-
-Return: a new structure matching the old, based on the return value of the callback.
+Return: a new array or object matching the input, based on the return value of the callback function.
 
 For Arrays, the input should be an array and a callback that receives `value` and `index` as parameters.
 
 - Run the callback for each element in the array.
-- Return a new array, containing only those elements for which the callback returned `true`
+- Return a new array, containing only those elements for which the callback returned `true`.
 
 ```javascript
 let array = [1,2,3,4];
