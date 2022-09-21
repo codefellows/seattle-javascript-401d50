@@ -13,7 +13,7 @@ For Arrays, the input should be an array and a callback that receives `value` an
 
 ```javascript
 let array = [1,2,3,4];
-$$.filter(array, (val,idx) => {
+filter(array, (val,idx) => {
   return !(value % 2)
 });
 
@@ -31,7 +31,7 @@ let obj = {
   sunny: false
 };
 
-$$.map(obj, (key, val) => {
+filter(obj, (key, val) => {
   return val === true;
 })
 
