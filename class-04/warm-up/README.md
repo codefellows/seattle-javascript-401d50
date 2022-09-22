@@ -1,12 +1,10 @@
 # Warm Up
 
-The **shredder** library ($$)
+## `reduce()` method
 
-## `$$.reduce()` method
+Inputs - 3 arguments: An array or object, a callback, and an initial state value for the "accumulator".
 
-Input: 3 arguments: An array or object, a callback and the initial value for the "accumulator".
-
-Return: Based on the return value of the callback, a single accumulated data structure
+Return: A single accumulated structure, Based on the return value of the callback.
 
 For Arrays, the callback receives `accumulator`, `value` and `index` as parameters.
 
@@ -16,7 +14,7 @@ For Arrays, the callback receives `accumulator`, `value` and `index` as paramete
 
 ```javascript
 let array = [1,2,3,4];
-let sum = $$.reduce(array, (accumulator, val, idx) => {
+let sum = reduce(array, (accumulator, val, idx) => {
   accumulator = accumulator + val;
   return accumulator;
 }, 0);
@@ -24,7 +22,7 @@ let sum = $$.reduce(array, (accumulator, val, idx) => {
 // Output: 10
 ```
 
-For Objects, the callback that receives `accumulator`, `key`, `value`, and `index` as parameters.
+For Objects, the callback receives `accumulator`, `key`, and `value` as parameters.
 
 - Run the callback for each property in the object.
 - Return the accumulator with each iteration as input to the next iteration.
@@ -39,7 +37,7 @@ let weather = {
   smoggy: true
 };
 
-let facts = $$.reduce( weather, (acc, key, value, idx) => {
+let facts = reduce(weather, (acc, key, value) => {
   if( weather[key] === true ) {
     acc.push(key);
   }
