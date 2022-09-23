@@ -12,6 +12,8 @@ See warm up folder!
 
 ## SQL Data Modeling
 
+See Class Whiteboard: https://projects.invisionapp.com/freehand/document/VSHOg3WBc
+
 ## DEMO: TDD Collection Interface
 
 Writing less Sequelize code, keep all of the sequelize stuff in one place.
