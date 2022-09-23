@@ -64,15 +64,15 @@ function logNamesMore() {
 
 ```
 
-  * When analyzing, we consider 2 factors:
-    * Running Time (time).
-    * Space (memory).
-  * Rates of growth:
-    * 0(1) - constant rate of growth.
-    * 0 (log(n)) - logarithmic rate of growth.
-    * 0(n) - linear rate of growth.
-    * 0(n^2) - quadratic
-    * 0(2^n) - exponential
+* When analyzing, we consider 2 factors:
+  * Running Time (time).
+  * Space (memory).
+* Rates of growth:
+  * 0(1) - constant rate of growth.
+  * 0 (log(n)) - logarithmic rate of growth.
+  * 0(n) - linear rate of growth.
+  * 0(n^2) - quadratic
+  * 0(2^n) - exponential
 
 ## Linked List Data Structures
 
