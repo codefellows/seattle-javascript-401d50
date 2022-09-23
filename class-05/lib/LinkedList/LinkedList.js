@@ -56,6 +56,6 @@ function traverse(ll) {  // (n) = 4
 // time complexity = 0(n)
 // space complexity = 0(1)
 
-traverse(linkedList);
+// traverse(linkedList);
 
 module.exports = LinkedList;
