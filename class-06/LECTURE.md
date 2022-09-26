@@ -49,4 +49,13 @@ Bcrypt
 
 ## Authenticating Web Services
 
+Every request should be able to answer the question:  Who is making this request?  Initially we want to give users the ability to signup / register as a User.  Once that is done, we need to build software that can validate a user using Authentication Headers:
+
+Whiteboard Diagram: https://projects.invisionapp.com/freehand/document/uJQbHxB5f
+
 ## DEMO: Basic Authentication Middleware
+
+* Encode Basic Authentication credentials onto an HTTP request.
+* Decode Basic Authentication credentials server side.
+* Find a specified user, validate their password.
+* If a user is valid,  allow our request to proceed, or send back an error code.
