@@ -20,4 +20,4 @@ Output:
 
 ### Notes
 
-* The original linked list should not be mutated, please ensure that your function does not reverse the original list, only prints there values in reverse order.
+* The original linked list should not be mutated, please ensure that your function does not reverse the original list, only prints the values in reverse order.
