@@ -1,0 +1,6 @@
+{
+  "writer": ["read", "create"],
+  "editor": ["read", "update"],
+  "admin": ["read", "create", "update", "delete"],
+  "user": ["read"]
+}
