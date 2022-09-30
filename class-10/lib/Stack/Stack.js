@@ -7,6 +7,7 @@ class Stack {
     this.top = null;
   }
 
+  // adding a new value to the stack.
   push() {}
 
   pop() {}

@@ -12,8 +12,10 @@ class Queue {
 
   dequeue() {}
 
+  // returns the value from the beginning.
   peek() {}
 
+  // boolean that syas whether the  structure is empty or not.
   isEmpty() {}
 }
 
