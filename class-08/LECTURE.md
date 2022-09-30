@@ -7,7 +7,7 @@
 ??? Roles dictate what clients can do within our API:
 
 For a given role, their is a set of capabilities:
-* every "resource" their is some CRUD:
+* every "resource" has some CRUD:
   * Articles:  READ / CREATE / UPDATE / DELETE
   * Users: READ / CREATE / UPDATE / DELETE
 Access Control List:
