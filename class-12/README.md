@@ -1,6 +1,6 @@
 # Socket.io
 
-Description Here
+Node Events published over a TCP connection.
 
 ## Learning Objectives
 
