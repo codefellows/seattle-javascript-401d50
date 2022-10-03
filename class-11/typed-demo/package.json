@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "jest": "^29.1.2"
+  },
+  "name": "typed-demo",
+  "version": "1.0.0",
+  "main": "body.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest --coverage --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
