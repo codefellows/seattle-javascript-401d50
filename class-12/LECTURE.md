@@ -16,7 +16,7 @@ Communication standards for computers.
 
 7 layers
 
-The top layer is more user facing, the bottom layer is very computery.
+The top layer is more user facing, the bottom layer is very "computery".
 
 7 layer application layer - HTTP / FTP / IMAP
 
@@ -33,4 +33,6 @@ TCP lives on the 4th layer - Transport layer
 bottom layer is physical (electrons flowing between physical systems)
 
 ### Moving from HTTP to TCP
+
+See virtual whiteboard: https://projects.invisionapp.com/freehand/document/52IXX9hq1
 
