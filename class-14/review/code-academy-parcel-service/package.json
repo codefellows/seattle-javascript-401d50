@@ -1,0 +1,26 @@
+{
+  "name": "code-academy-parcel-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrookeHeck/code-academy-parcel-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrookeHeck/code-academy-parcel-service/issues"
+  },
+  "homepage": "https://github.com/BrookeHeck/code-academy-parcel-service#readme",
+  "dependencies": {
+    "chance": "^1.1.8",
+    "jest": "^29.1.2",
+    "socket.io": "^4.5.2",
+    "socket.io-client": "^4.5.2"
+  }
+}
