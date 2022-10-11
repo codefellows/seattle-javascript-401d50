@@ -35,3 +35,7 @@ declare recursive function walk:
 call walk on tree root
 return the maximum value.
 ```
+
+## S3 and Lambda Functions
+
+Virtual Whiteboard found here: https://projects.invisionapp.com/freehand/document/Ie9fdwu64
