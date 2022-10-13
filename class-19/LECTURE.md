@@ -51,4 +51,4 @@ What is SNS?
 ## Messages with SQS
 
 * Simple Queue Service
-  * Stores and managed a list of messages, to guarauntee that something (not all things) have read the message.
+  * Stores and managed a list of messages, to guarantee that something (not all things) have read the message.
