@@ -1,0 +1,7 @@
+$textColor: red;
+$background: lightgrey;
+
+@mixin theme($background, $margin) {
+  background-color: $background;
+  margin: $margin;
+}

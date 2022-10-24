@@ -1,0 +1,18 @@
+@import "variables.scss";
+// SASS variables begin with: $
+// $textColor: red;
+// $background: lightgrey;
+
+// @mixin theme($color) {
+//   background-color: $color;
+//   margin: 50px;
+// }
+
+.article {
+
+  @include theme(pink, 50);
+
+  h2 {
+    color: $textColor;
+  }
+}
