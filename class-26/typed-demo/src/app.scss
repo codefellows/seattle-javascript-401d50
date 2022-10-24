@@ -10,7 +10,7 @@
 
 .article {
 
-  @include theme(pink, 50);
+  @include theme();
 
   h2 {
     color: $textColor;
