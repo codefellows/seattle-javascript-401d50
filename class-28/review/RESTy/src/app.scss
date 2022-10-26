@@ -1,0 +1,36 @@
+$backgroundColor: #eaa14c;
+$backgroundColor2: rgb(131, 95, 33);
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: $backgroundColor;
+  height: 100%;
+
+  #root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  footer {
+    background: darken($backgroundColor, 30);
+    border-top: 1px solid #eee;
+    padding: 1em 3em;
+    margin: 0;
+    text-align: center;
+  }
+
+  header {
+    background: $backgroundColor2;
+    border-bottom: 1px solid #eee;
+    color: #eee;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+}
