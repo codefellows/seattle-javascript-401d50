@@ -42,7 +42,7 @@ Implement several array sorting comparators and an array filter.
 
 ## Example
 
-See tests.ts
+See test.js
 
 ## Requirements
 
