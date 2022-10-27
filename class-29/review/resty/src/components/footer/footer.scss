@@ -1,0 +1,10 @@
+@import '../../design/variables.scss';
+
+footer {
+  // background: darken($backgroundColor, 50);
+  background: #a2d2ff;
+  color: #9d8189;
+  border-top: 1px solid #eee;
+  padding: 1em 3em;
+  margin: 0;
+}

@@ -1,0 +1,11 @@
+@import '../../design/variables.scss';
+
+header {
+  //background: darken($backgroundColor, 75);
+  background: #cdb4db;
+  border-bottom: 1px solid #eee;
+  color: #9d8189;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}

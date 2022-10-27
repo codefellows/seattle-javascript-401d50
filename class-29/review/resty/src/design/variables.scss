@@ -1,0 +1,16 @@
+
+$backgroundColor: #f5f5f5;
+
+$textColor: #ded6d1;
+
+// mixin
+// works sort of like a function
+// '@' sign is a 'decorator'
+@mixin theme($color)
+{
+  background-color: $background;
+  margin: 50px;
+  color: $color;
+}
+
+// color scheme: https://coolors.co/palette/cdb4db-ffc8dd-ffafcc-bde0fe-a2d2ff
