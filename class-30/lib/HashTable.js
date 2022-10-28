@@ -13,7 +13,11 @@ class HashTable {
    * @param {String} key
    */
   hash(key) {
-
+    let charSum = 0
+    for (let char in key) {
+      charSum += key.charCodeAt(char);
+    }
+    return (charSum * 599) % this.size;
   }
 
   /**
@@ -33,7 +37,7 @@ class HashTable {
   get(key) {
 
   }
-  
+
   /**
    * Returns a Boolean, indication if the kye exists in the table.
    * @param (String) key
