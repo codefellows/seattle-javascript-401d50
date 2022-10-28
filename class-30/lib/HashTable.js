@@ -28,8 +28,26 @@ class HashTable {
   /**
    * returns the value stored in the bucket associated with the key parameter.
    * @param {String} key
+   * @return {any}
    */
   get(key) {
+
+  }
+  
+  /**
+   * Returns a Boolean, indication if the kye exists in the table.
+   * @param (String) key
+   * @return {Boolean}
+   */
+  has(key) {
+
+  }
+
+  /**
+   * Returns a collection of Keys
+   * @return {Array}
+   */
+  keys() {
 
   }
 }
