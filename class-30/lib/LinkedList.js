@@ -21,6 +21,17 @@ class LinkedList {
     current.next = node;
   }
 
+  find(value) {
+    let current = this.head;
+    while (current) {
+      if (current.value === value) {
+        return current.value;
+      }
+      current = current.next;
+    }
+    return null;
+  }
+
   values() {
     let values = [];
     let current = this.head;

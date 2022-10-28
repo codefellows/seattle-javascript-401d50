@@ -49,4 +49,17 @@ describe('Testing the Linked List class', () => {
 
     expect(string).toEqual('2 -> 4 -> 6 -> 8 -> ');
   });
+
+  test('Should be able to find a value stored in the list', () => {
+    let list = new LinkedList();
+    list.add('Test');
+    list.add('test');
+
+    let value = list.find('test');
+    expect(value).toEqual('test');
+    value = list.find('Test');
+    expect(value).toEqual('Test');
+    value = list.find('nothing');
+    expect(value).toEqual(null);
+  });
 });
