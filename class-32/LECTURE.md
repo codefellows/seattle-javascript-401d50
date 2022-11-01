@@ -31,6 +31,8 @@ Whiteboard Challenge: Create A Navigation feature!
 
 Change or update global values.
 
-*
+* If we pass setters down directly we are giving users the power to break our app.
+* Context is responsible for managing it's values and giving that responsibility to components.
+* Handle errors and manage state using methods and specific behaviors.
 
 ## DEMO: Changing Theme and Settings Values
