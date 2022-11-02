@@ -1,0 +1,29 @@
+.item-card {
+
+}
+
+.card-header>p {
+  display: inline
+}
+
+.card-header p:nth-child(1) {
+  background-color: blue;
+  color: white;
+  border: solid black 1px;
+  border-radius: 15px;
+  padding: 3px;
+  margin-right: 5px;
+}
+
+.card-header p:nth-child(1):hover {
+  cursor: pointer;
+}
+
+.card-header p:nth-child(2) {
+  margin-right: 75%;
+}
+
+.card-header p:nth-child(3):hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
