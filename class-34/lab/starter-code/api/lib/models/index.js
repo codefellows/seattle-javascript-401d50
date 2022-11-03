@@ -10,4 +10,5 @@ const sequelize = new Sequelize(DATABASE_URL);
 
 module.exports = {
   api_db: sequelize,
+  // export our collection
 };

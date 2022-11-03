@@ -1,0 +1,48 @@
+{
+  "name": "31-react-todo-app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://rmccrear.github.io/31-react-todo-app",
+  "dependencies": {
+    "@blueprintjs/core": "^4.11.6",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "jwt-decode": "^3.1.2",
+    "react": "^18.2.0",
+    "react-cookies": "^0.1.1",
+    "react-dom": "^18.2.0",
+    "react-if": "^4.1.4",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "deploy": "npm run build; gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/user-event": "^14.4.3",
+    "gh-pages": "^4.0.0",
+    "sass": "^1.55.0"
+  }
+}

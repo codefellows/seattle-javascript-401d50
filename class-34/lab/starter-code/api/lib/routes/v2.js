@@ -7,6 +7,7 @@ const acl = require('../auth/middleware/acl.js');
 const router = express.Router();
 
 router.param('model', (req, res, next) => {
+  console.log(req.params);
   const modelName = req.params.model;
   if (dataModules[modelName]) {
     req.model = dataModules[modelName];
@@ -16,6 +17,10 @@ router.param('model', (req, res, next) => {
   }
 });
 
+router.get('/todos', acl('read'), (request, response) => {
+  // JUST FOR TESTING!  Remove once a todo model is added
+  response.send('In Progress');
+});
 router.get('/:model', acl('read'), handleGetAll);
 router.get('/:model/:id', acl('read'), handleGetOne);
 router.post('/:model', acl('create'), handleCreate);
