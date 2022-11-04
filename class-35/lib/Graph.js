@@ -37,8 +37,9 @@ class Graph {
     if (this.adjacencies.has(startVertex) && this.adjacencies.has(endVertex)) {
       let edges = this.adjacencies.get(startVertex); // []
       edges.push(new Edge(endVertex));
+    } else {
+      throw new Error('Invalid input Vertex');
     }
-
   }
 
   /**
