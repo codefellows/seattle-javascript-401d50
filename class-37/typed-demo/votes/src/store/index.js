@@ -1,5 +1,3 @@
-'use strict';
-
 const { createStore, combineReducers } = require('redux');
 const { candidateReducer, vote } = require('./candidates');
 const voteReducer = require('./votes');
