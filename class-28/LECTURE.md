@@ -3,6 +3,7 @@
 ## Code Review
 
 How is RESTy going?
+
 * Deployment issues:
   * file system on our Operating vs github
     * mac-OS doesn't care about capital letters but git and github do!

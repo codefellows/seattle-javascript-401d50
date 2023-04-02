@@ -1,4 +1,4 @@
-# Class 42 - React Native Continued.
+# Class 42 - React Native Continued
 
 ## Warm Up
 
@@ -14,5 +14,8 @@ Prompt: Given a linked list of integers, write a function that converts the list
 
 ## Adding Polish
 
+* Native Base Component Library
+
 ## Building and Publishing our Apps
 
+* Using EAS to build and publish our Expo applications.
